@@ -1,0 +1,38 @@
+.header-container{
+    text-align: center;
+}
+.container{
+    background-color: #eaddcf;
+}
+.logo img{
+    height: 80px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width : 80%;
+    margin: auto;
+}
+.nav-items{
+    line-height: 40px;
+}
+.nav-items a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #020826;
+    font-weight: 500;
+}
+.nav-items a:hover{
+    background-color: #8c7851;
+    color: #fffffe;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container .input-search{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+}
