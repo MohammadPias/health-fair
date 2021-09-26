@@ -19,7 +19,8 @@ const Event = () => {
     return (
         <div className="event-container">
             <div className="text-area">
-                <h1>Welcome To Health Fair EVENT</h1>
+                <h1>Organizing a Health Fair <span className="text-style">EVENT</span></h1>
+                <h3>Total BudgetF: $1K</h3>
                 <p>It’s that time of year again for planning your next health fair.  It is a preventative measure and a highly beneficial tool for many people. These fairs are often interactive, and certain people are in charge of different areas.</p>
             </div>
             <div className="body">
