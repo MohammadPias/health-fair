@@ -1,0 +1,11 @@
+.cart-container{
+    background-color: #8c7851;
+    color: #fffffe;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+.cart-container h3{
+    border-bottom: 1px solid #fffffe;
+}
