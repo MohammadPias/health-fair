@@ -1,11 +1,18 @@
-.cart-container{
-    background-color: #8c7851;
-    color: #fffffe;
-    padding: 15px;
-    border-radius: 10px;
+.cart{
     position: sticky;
     top: 0;
 }
+.cart-container{
+    background-color: #eaddcf;
+    color: #020826;
+    padding: 15px;
+    border-radius: 10px;
+}
 .cart-container h3{
-    border-bottom: 1px solid #fffffe;
+    border-bottom: 1px solid #020826;
+}
+.mCard{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
 }

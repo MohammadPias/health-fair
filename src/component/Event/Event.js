@@ -25,7 +25,7 @@ const Event = () => {
             </div>
             <div className="body">
                 <div className="sticky">
-                    <Cart cart={carts}></Cart>
+                    <Cart carts={carts}></Cart>
                 </div>
                 <div className="doctors-container">
                     {

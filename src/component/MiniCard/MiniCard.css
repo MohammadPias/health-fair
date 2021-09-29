@@ -1,0 +1,30 @@
+.mCard-container{
+    display: flex;
+    align-items: center;
+    gap: 15px 0;
+    background-color: #eaddcf;
+    color: #020826;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: transform 0.5s;
+}
+.mCard-container:hover{
+    box-shadow: 5px 5px 8px grey;
+    transform: scale(1.05);
+}
+.mCard-image{
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+}
+.mCard-image img{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center top;
+}
+.mcard-right p, h5{
+    margin: 5px 0;
+}
